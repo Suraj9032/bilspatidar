@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    backend-linter:
+      glob: "*.rb"
+      exclude: "application.rb|routes.rb"
+      run: bundle exec rubocop --force-exclusion {files} -a

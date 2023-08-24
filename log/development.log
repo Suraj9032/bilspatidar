@@ -1,0 +1,952 @@
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:14:15 -0700
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vboxuser" does not exist
+):
+  
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.3) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2023-08-16 10:14:19 -0700
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vboxuser" does not exist
+):
+  
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.3) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:14:28 -0700
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vboxuser" does not exist
+):
+  
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.3) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2023-08-16 10:14:31 -0700
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  role "vboxuser" does not exist
+):
+  
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.3) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.3) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.3) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:613:in `connection'
+activerecord (7.0.3) lib/active_record/migration.rb:608:in `build_watcher'
+activerecord (7.0.3) lib/active_record/migration.rb:590:in `block in call'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `synchronize'
+activerecord (7.0.3) lib/active_record/migration.rb:589:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3.1) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3.1) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.3) lib/rails/engine.rb:530:in `call'
+puma (5.6.4) lib/puma/configuration.rb:252:in `call'
+puma (5.6.4) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.4) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.4) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.4) lib/puma/server.rb:441:in `process_client'
+puma (5.6.4) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[35m (567.9ms)[0m  [1m[35mCREATE DATABASE "simple_rest_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (547.9ms)[0m  [1m[35mCREATE DATABASE "simple_rest_api_test" ENCODING = 'unicode'[0m
+  [1m[35m (18.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (17.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3744359137875710865)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20220621151400)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (10.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220621151400"]]
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateBooks (20220621151918)
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.3ms)[0m  [1m[35mCREATE TABLE "books" ("id" bigserial primary key, "user_id" bigint NOT NULL, "book" character varying, "likes_books" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_bc582ddd02"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (9.3ms)[0m  [1m[35mCREATE INDEX "index_books_on_user_id" ON "books" ("user_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220621151918"]]
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to RenameColumnName (20220624101837)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.7ms)[0m  [1m[35mALTER TABLE "books" RENAME COLUMN "book" TO "book_name"[0m
+  [1m[35m (2.3ms)[0m  [1m[35mALTER TABLE "users" RENAME COLUMN "password" TO "password_digest"[0m
+  [1m[36mActiveRecord::SchemaMigration Create (25.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220624101837"]]
+  [1m[36mTRANSACTION (3.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAdminToUsers (20220627141310)
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[35mALTER TABLE "users" ADD "admin" boolean DEFAULT FALSE[0m
+  [1m[35m (2.2ms)[0m  [1m[35mALTER TABLE "users" ALTER COLUMN "username" SET NOT NULL[0m
+  [1m[35m (17.4ms)[0m  [1m[35mALTER TABLE "users" ALTER COLUMN "password_digest" SET NOT NULL[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "books" ALTER COLUMN "book_name" SET NOT NULL[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220627141310"]]
+  [1m[36mTRANSACTION (6.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to ChangeColumnNameToBooks (20220629091920)
+  [1m[36mTRANSACTION (7.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "books" RENAME COLUMN "likes_books" TO "likes"[0m
+  [1m[36mActiveRecord::SchemaMigration Create (11.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220629091920"]]
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (6.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-08-16 17:17:44.028743"], ["updated_at", "2023-08-16 17:17:44.028743"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(3744359137875710865)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE DATABASE "simple_rest_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE DATABASE "simple_rest_api_test" ENCODING = 'unicode'[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 1"], ["LIMIT", 1]]
+  [1m[36mUser Create (2.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "admin") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Joshua 1"], ["password_digest", "[FILTERED]"], ["created_at", "2023-08-16 17:18:15.483680"], ["updated_at", "2023-08-16 17:18:15.483680"], ["admin", false]]
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 2"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "admin") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Joshua 2"], ["password_digest", "[FILTERED]"], ["created_at", "2023-08-16 17:18:16.206156"], ["updated_at", "2023-08-16 17:18:16.206156"], ["admin", false]]
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:18:37 -0700
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:18:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.6ms | Allocations: 809)
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.0ms | Allocations: 631)
+Completed 200 OK in 59ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 7363)
+
+
+Completed 200 OK in 63ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 7561)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:18:39 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 405)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 1395)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:18:40 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 24)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:22:01 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 23)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-16 10:22:02 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 23)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 273)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:23:14 -0700
+Processing by AuthenticationController#login as */*
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 401 Unauthorized in 99ms (Views: 1.6ms | ActiveRecord: 21.0ms | Allocations: 5762)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:24:38 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Joshua 2", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Joshua 2", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e708a5eb8>, params: {"username"=>"Joshua 2", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 2", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 2"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e708a5eb8>, params: {"username"=>"Joshua 2", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 2", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 769ms (Views: 0.8ms | ActiveRecord: 12.0ms | Allocations: 6566)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:24:52 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Joshua 21", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Joshua 21", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e709a2a50>, params: {"username"=>"Joshua 21", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 21", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (7.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 21"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 401 Unauthorized in 19ms (Views: 0.7ms | ActiveRecord: 7.0ms | Allocations: 796)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:25:02 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Joshua 2", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Joshua 2", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70a4d018>, params: {"username"=>"Joshua 2", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 2", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (4.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 2"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70a4d018>, params: {"username"=>"Joshua 2", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 2", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 543ms (Views: 0.5ms | ActiveRecord: 4.3ms | Allocations: 898)
+
+
+Started GET "/api/v1/users" for ::1 at 2023-08-16 10:25:50 -0700
+Processing by Api::V1::UsersController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 269)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:26:05 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Joshua 3", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Joshua 3", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70aae778>, params: {"username"=>"Joshua 3", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 3", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 3"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 401 Unauthorized in 24ms (Views: 0.4ms | ActiveRecord: 6.0ms | Allocations: 802)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:26:30 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Joshua3", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Joshua3", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00005566b6d17370>, params: {"username"=>"Joshua3", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua3", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua3"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 401 Unauthorized in 16ms (Views: 0.6ms | ActiveRecord: 0.8ms | Allocations: 712)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:26:40 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"Joshua 3", "password"=>"[FILTERED]", "authentication"=>{"username"=>"Joshua 3", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00005566b6d6d298>, params: {"username"=>"Joshua 3", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"Joshua 3", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Joshua 3"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+Completed 401 Unauthorized in 6ms (Views: 0.4ms | ActiveRecord: 0.6ms | Allocations: 700)
+
+
+  [1m[36mUser Load (8.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (7.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "Joshua 1"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (8.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "Joshua 1"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "admin"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "admin"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "admin"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "Joshua 1"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 AND "users"."id" != $2 LIMIT $3[0m  [["username", "admin"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at", "admin") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "admin"], ["password_digest", "[FILTERED]"], ["created_at", "2023-08-16 17:42:08.522619"], ["updated_at", "2023-08-16 17:42:08.522619"], ["admin", true]]
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/auth/login" for ::1 at 2023-08-16 10:42:35 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00005566b6e42ba0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00005566b6e42ba0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+Completed 401 Unauthorized in 850ms (Views: 3.0ms | ActiveRecord: 29.9ms | Allocations: 3940)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:42:54 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70b9f6a0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70b9f6a0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 779ms (Views: 1.3ms | ActiveRecord: 1.8ms | Allocations: 933)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:43:13 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70b75bc0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70b75bc0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 750ms (Views: 0.4ms | ActiveRecord: 1.4ms | Allocations: 897)
+
+
+Started POST "/auth/login" for ::1 at 2023-08-16 10:43:18 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70ba4d08>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1e70ba4d08>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 707ms (Views: 1.3ms | ActiveRecord: 0.5ms | Allocations: 900)
+
+
+Started GET "/api/v1/users?token=[FILTERED]" for ::1 at 2023-08-16 10:43:37 -0700
+Processing by Api::V1::UsersController#index as */*
+  Parameters: {"token"=>"[FILTERED]"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 115)
+
+
+Started GET "/api/v1/users?token=[FILTERED]" for ::1 at 2023-08-16 10:43:47 -0700
+Processing by Api::V1::UsersController#index as */*
+  Parameters: {"token"=>"[FILTERED]"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 115)
+
+
+Started GET "/api/v1/users" for ::1 at 2023-08-16 10:43:54 -0700
+Processing by Api::V1::UsersController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 7ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 115)
+
+
+Started GET "/api/v1/users" for ::1 at 2023-08-16 10:44:23 -0700
+Processing by Api::V1::UsersController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 10ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 115)
+
+
+Started GET "/api/v1/users" for ::1 at 2023-08-16 10:45:57 -0700
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `authenticate_request'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:8:in `index'
+Completed 200 OK in 133ms (Views: 30.5ms | ActiveRecord: 3.7ms | Allocations: 3583)
+
+
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: c7c3-117-199-35-94.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: c7c3-117-199-35-94.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: c7c3-117-199-35-94.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: c7c3-117-199-35-94.ngrok-free.app
+Started GET "/api/v1/users" for 117.199.35.94 at 2023-08-16 10:57:24 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `authenticate_request'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:8:in `index'
+Completed 200 OK in 367ms (Views: 166.0ms | ActiveRecord: 18.8ms | Allocations: 24312)
+
+
+Started GET "/api/v1/users" for 117.199.35.94 at 2023-08-16 11:00:47 -0700
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `authenticate_request'
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 6.5ms | ActiveRecord: 3.5ms | Allocations: 1667)
+
+
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: 17fe-117-199-44-14.ngrok-free.app
+Started GET "/" for 117.199.44.14 at 2023-08-17 03:47:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (3.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.1ms | Allocations: 732)
+Completed 200 OK in 61ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 6295)
+
+
+Started GET "/" for 117.199.44.14 at 2023-08-17 03:48:28 -0700
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.6ms | Allocations: 405)
+Completed 200 OK in 16ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 1438)
+
+
+Started GET "/api/v1/users" for 117.199.44.14 at 2023-08-17 03:48:44 -0700
+Processing by Api::V1::UsersController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 356)
+
+
+Started POST "/api/v1/users" for 117.199.44.14 at 2023-08-17 03:48:47 -0700
+Processing by Api::V1::UsersController#create as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started POST "/api/v1/users" for 117.199.44.14 at 2023-08-17 03:49:19 -0700
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "user"=>{"username"=>"admin"}}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 8.7ms | Allocations: 173)
+
+
+Started POST "/api/v1/users" for 117.199.44.14 at 2023-08-17 03:49:21 -0700
+Processing by Api::V1::UsersController#create as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "user"=>{"username"=>"admin"}}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started POST "/auth/login" for 117.199.44.14 at 2023-08-17 03:49:39 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f5c606aea28>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f5c606aea28>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 483ms (Views: 0.5ms | ActiveRecord: 11.8ms | Allocations: 6914)
+
+
+Started GET "/api/v1/users" for 117.199.44.14 at 2023-08-17 03:50:43 -0700
+Processing by Api::V1::UsersController#index as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:22:in `authenticate_request'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:8:in `index'
+Completed 200 OK in 43ms (Views: 4.4ms | ActiveRecord: 1.8ms | Allocations: 3594)
+
+
+Started GET "/" for 127.0.0.1 at 2023-08-24 00:23:28 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (7.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/vboxuser/.rbenv/versions/3.0.3/lib/ruby/gems/3.0.0/gems/railties-7.0.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.0ms | Allocations: 732)
+Completed 200 OK in 31ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 6295)
+
+
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ab4e-117-212-239-7.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ab4e-117-212-239-7.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ab4e-117-212-239-7.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ab4e-117-212-239-7.ngrok-free.app
+[ActionDispatch::HostAuthorization::DefaultResponseApp] Blocked host: ab4e-117-212-239-7.ngrok-free.app
+Started GET "/api/v1/users" for 117.212.239.7 at 2023-08-24 00:34:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::UsersController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 612)
+
+
+Started POST "/auth/login" for 117.212.239.7 at 2023-08-24 00:36:53 -0700
+Processing by AuthenticationController#login as */*
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1c60018af0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+  [1m[36mUser Load (6.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "admin"], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:6:in `login'
+[31mUnpermitted parameter: :authentication. Context: { controller: AuthenticationController, action: login, request: #<ActionDispatch::Request:0x00007f1c60018af0>, params: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"authentication", "action"=>"login", "authentication"=>{"username"=>"admin", "password"=>"[FILTERED]"}} }[0m
+Completed 200 OK in 679ms (Views: 0.3ms | ActiveRecord: 26.9ms | Allocations: 23152)
+
+
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:38:28 -0700
+Processing by Api::V1::BooksController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 6ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:41:22 -0700
+Processing by Api::V1::BooksController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 352)
+
+
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:42:20 -0700
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (5.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 9.6ms | ActiveRecord: 5.4ms | Allocations: 3301)
+
+
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:42:37 -0700
+Processing by Api::V1::BooksController#index as */*
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 351)
+
+
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:42:59 -0700
+  
+NoMethodError (undefined method `before_action_skip' for Api::V1::BooksController:Class
+Did you mean?  before_action):
+  
+app/controllers/api/v1/books_controller.rb:3:in `<class:BooksController>'
+app/controllers/api/v1/books_controller.rb:1:in `<main>'
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:43:26 -0700
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (0.9ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 17ms (Views: 5.2ms | ActiveRecord: 0.9ms | Allocations: 2651)
+
+
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:43:29 -0700
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.5ms | Allocations: 717)
+
+
+  [1m[36mBook Load (1.0ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3744359137875710865)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUserroles (20230824074929)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (32.3ms)[0m  [1m[35mCREATE TABLE "userroles" ("id" bigserial primary key, "name" character varying, "status" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230824074929"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3744359137875710865)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUserrole Create (3.2ms)[0m  [1m[32mINSERT INTO "userroles" ("name", "status", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "super_admin"], ["status", nil], ["created_at", "2023-08-24 07:50:52.092060"], ["updated_at", "2023-08-24 07:50:52.092060"]]
+  [1m[36mTRANSACTION (7.9ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/books" for ::1 at 2023-08-24 00:51:38 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mUserrole Load (1.7ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 66ms (Views: 22.4ms | ActiveRecord: 34.5ms | Allocations: 5103)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 00:52:39 -0700
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mUserrole Load (0.4ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.4ms | Allocations: 797)
+
+
+Started GET "/api/v1/books" for 2409:40c4:21:5769:2803:1d04:8219:6fc4 at 2023-08-24 00:52:49 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (1.7ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 1.7ms | Allocations: 791)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:11:22 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (1.1ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 13.4ms | Allocations: 3784)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:11:22 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:18:19 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.9ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 29ms (Views: 29.0ms | ActiveRecord: 11.4ms | Allocations: 3651)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:18:19 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:18:43 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.7ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.7ms | Allocations: 775)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:18:43 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 3ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:18:48 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.5ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.5ms | Allocations: 774)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:18:48 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:20:08 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.4ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:20:17 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:24:40 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.4ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.4ms | Allocations: 774)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:24:41 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:38:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.6ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 62ms (Views: 18.1ms | ActiveRecord: 18.6ms | Allocations: 19630)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:39:06 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.3ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 892)
+
+
+Started POST "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:41:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BooksController#create as */*
+  Parameters: {"first_name"=>"Dilip", "last_name"=>"Patel", "email"=>"patel222@gmail.com", "password_digest"=>"[FILTERED]", "book"=>{}}
+Completed 400 Bad Request in 42ms (ActiveRecord: 3.1ms | Allocations: 15373)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: book):
+  
+app/controllers/api/v1/books_controller.rb:49:in `book_params'
+app/controllers/api/v1/books_controller.rb:18:in `create'
+Started GET "/puma/thread_pool.rb:147:in" for 117.212.239.7 at 2023-08-24 01:42:14 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"puma/thread_pool"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 312)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:44:37 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.6ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 55ms (Views: 16.8ms | ActiveRecord: 9.7ms | Allocations: 6750)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 01:44:37 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 134)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 01:44:50 -0700
+Processing by Api::V1::BooksController#index as */*
+  [1m[36mUserrole Load (4.7ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:9:in `index'
+Completed 200 OK in 15ms (Views: 10.0ms | ActiveRecord: 4.7ms | Allocations: 880)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 02:01:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (1.6ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:14:in `index'
+Completed 200 OK in 143ms (Views: 36.5ms | ActiveRecord: 11.9ms | Allocations: 19651)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 02:01:53 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 208)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 02:01:54 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.6ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:14:in `index'
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.6ms | Allocations: 896)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 02:01:55 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 02:02:19 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.4ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:14:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 810)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 02:02:20 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 111)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 02:36:45 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.2ms | Allocations: 226)
+
+
+Started GET "/api/v1/books" for 117.212.239.7 at 2023-08-24 02:36:50 -0700
+Processing by Api::V1::BooksController#index as HTML
+  [1m[36mUserrole Load (0.6ms)[0m  [1m[34mSELECT "userroles".* FROM "userroles"[0m
+  ↳ app/controllers/api/v1/books_controller.rb:10:in `index'
+Completed 200 OK in 46ms (Views: 33.9ms | ActiveRecord: 11.0ms | Allocations: 5967)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 02:36:50 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 126)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 02:37:48 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 110)
+
+
+Started GET "/favicon.ico" for 117.212.239.7 at 2023-08-24 04:23:25 -0700
+Processing by ApplicationController#not_found as */*
+  Parameters: {"unmatched_route"=>"favicon"}
+Filter chain halted as :authenticate_request rendered or redirected
+Completed 401 Unauthorized in 4ms (Views: 0.5ms | Allocations: 110)
+
+
