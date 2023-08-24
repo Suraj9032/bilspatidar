@@ -3,7 +3,6 @@ class Api::V1::BooksController < ApplicationController
   skip_before_action :authenticate_request
 
   def index
-    
     # authorize Book
     # @books = @current_user.admin ? Book.all : @current_user.books
      @books = Userrole.all
