@@ -7,7 +7,7 @@ class Api::V1::BooksController < ApplicationController
     # authorize Book
     # @books = @current_user.admin ? Book.all : @current_user.books
      @books = Userrole.all
-     render json: @books 
+     render json: @books
   end
 
   def show
