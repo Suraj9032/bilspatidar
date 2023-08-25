@@ -49,7 +49,7 @@ class Api::V1::BooksController < ApplicationController
   def book_params
     params.require(:book).permit(:book_name, :likes, :user_id)
   end
-
+  
   def set_book
     @book = Book.find(params[:id])
   end
